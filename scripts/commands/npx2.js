@@ -19,14 +19,14 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://i.imgur.com/Yc2atQe.mp4',
+      'https://i.imgur.com/mM5fFFV.mp4',
       { responseType: 'stream' }
     )
   ).data;
 
-	if (body.indexOf("Love")==0 || body.indexOf("❤️‍🔥")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love you")==0 || body.indexOf("valobashi")==0 || body.indexOf("Valobashi")==0 || body.indexOf("🖤")==0) {
+	if (body.indexOf("joy")==0 || body.indexOf("Joy")==0 || body.indexOf("jubaed")==0 || body.indexOf("Jubaed")==0 || body.indexOf("Jubaet")==0 || body.indexOf("জয়")==0 || body.indexOf("Admin")==0 || body.indexOf("Bot er admin")==0 || body.indexOf("Joy Ahmed")==0 || body.indexOf("joy khan")==0) {
 		var msg = {
-				body: "ভালোবাসা সুন্দর🖤",
+				body: "হারিয়ে ফেলেছি মানসিক শান্তি",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
